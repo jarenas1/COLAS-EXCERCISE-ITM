@@ -37,4 +37,12 @@ public class Tablet extends Device{
         System.out.println("nombre estudiante " + studentName);
         System.out.println("disponible" + available);
     }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
 }

@@ -18,4 +18,12 @@ public class Inventory {
     public Queue<Device> getDevices() {
         return queue;
     }
+
+    public Queue<Device> getQueue() {
+        return queue;
+    }
+
+    public void setQueue(Queue<Device> queue) {
+        this.queue = queue;
+    }
 }
